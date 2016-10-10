@@ -7,8 +7,9 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
-background-size: cover;
+background: url('http://pelecanus.net/sites/all/themes/STARTERKIT/images/texture-marron-clair.png') #262321;
+background-repeat: repeat;
+background-position: left top;
 height: 100%;
 width: 100%;
 }
@@ -93,9 +94,8 @@ margin-top: 20px;
 }
 
 .field{
-background: url(../images/field.png) repeat;
+background: #1f1f1c;
 width: 448px;
--webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
 font-style: italic;
 font-family: 'Lato', sans-serif;
@@ -106,7 +106,7 @@ margin-bottom: 15px;
 outline: none;
 }
 	.field:focus {
-	border: 1px solid #ffffff;
+	border: 1px solid #376e7e;
 	padding: 14px;
 	}
 @media only screen and (max-width: 480px)  {
@@ -129,7 +129,6 @@ position: absolute;
 right: 15px;
 top: 13px;
 padding: 3px 10px;
--webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 background: #ffffff;
 border: none;
 font-family: 'Lato', sans-serif;
@@ -140,7 +139,7 @@ cursor: pointer;
 
 
 .submit:hover{
-background: #eeeeee;
+background: #ffffff;
 }
 
 .error {
